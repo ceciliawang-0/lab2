@@ -35,7 +35,6 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    background-color:rgb(242, 242, 223);
     margin: 0px auto;
     max-width: 900px;
 }
@@ -43,6 +42,7 @@ body {
 .bio-hero {
     flex-basis: 100%;
     padding: 1.5em;
+    background-color:rgb(242, 242, 223);
 }
 
 .card-grid {
@@ -68,6 +68,7 @@ body {
 footer {
     padding: 20px;
     text-align: center;
+    margin-top: 30px;
 }
 
 @media (min-width: 768px) {
